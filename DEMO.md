@@ -167,15 +167,20 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 	https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=sharing  
 2. assign environment variables; Jetpack 4.2.1 selected for CUDA 10; so, please specify that here:   
-   - export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}  
-   - export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}   
+
+        export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}  
+   
+        export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}   
+            
 3. build: make   
 4. run it   
   - run it on a video; escape key to exit this:    
-     ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights data/ASLAZ.mov -i 0 -thresh   0.25   
+  
+        ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights data/ASLAZ.mov -i 0 -thresh   0.25   
     
   - run it live; escape key to exit this:    
-  ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights "nvarguscamerasrc auto-exposure=1 ! video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=2 ! video/x-raw, width=(int)1280, height=(int)720, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink -e"
+  
+        ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights "nvarguscamerasrc auto-exposure=1 ! video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=2 ! video/x-raw, width=(int)1280, height=(int)720, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink -e"
 
 
 
