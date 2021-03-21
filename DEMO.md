@@ -3,14 +3,14 @@ Final Project Demo Video = YOLO for ASL
 Steve Depp**
 
 
-Final project DV - YOLO for ASL
+**Final project DV - YOLO for ASL**
 
-Motivation:
+**Motivation:**
 	instant recognition of American Sign Language symbols by an edge device 
 	trained in the cloud of course
 	—> a suite of products for visually and hearing impaired 
 
-Ingredients for training in the cloud :
+**Ingredients for training in the cloud:**
 	browser for COLAB
 	Google Drive
 	annotated data = 48 hours
@@ -20,7 +20,7 @@ Ingredients for training in the cloud :
 		= 60 hours iterating over 106 layer model
 	—> 95% mAP and 90% IOU
 
-Ingredients for testing at the edge:
+**Ingredients for testing at the edge:**
 	Nvidia Jetson Nano et al
 	camera
 	SD card loaded with Jetpack 4.2.1 
@@ -28,29 +28,31 @@ Ingredients for testing at the edge:
 
 
 2
-YOLO for ASL
+**YOLO for ASL**
 
-References:
+**References:**
 1.	Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv preprint arXiv:2004.10934.
 2.	Lin, J., Gan, C., & Han, S. (2019). TSM: Temporal Shift Module for Efficient Video Understanding. 2019 IEEE/CVF International Conference on Computer Vision (ICCV), 7082-7092.
 3.	Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
 4.	Visée, R. J., Likitlersuang, J., & Zariffa, J. (2020). An effective and efficient method for detecting hands in egocentric videos for rehabilitation applications. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28(3), 748-755.
 
-Helpful links:
-	Sergio Canu = YOLO V3 – Install and run Yolo on Nvidia Jetson Nano (with GPU)
-		https://pysource.com/2019/08/29/yolo-v3-install-and-run-yolo-on-nvidia-jetson-nano-with-gpu/
-	Jetson Hacks = Jetson Nano + Raspberry Pi Camera + Jetson Nano – Use More Power!
-		https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/
-		https://www.jetsonhacks.com/2019/04/10/jetson-nano-use-more-power/
-	JP Redmon = https://github.com/pjreddie/darknet
-	AlexeyAB = https://github.com/AlexeyAB/darknet
+**Helpful links:**   
+- Sergio Canu = YOLO V3 – Install and run Yolo on Nvidia Jetson Nano (with GPU)
+https://pysource.com/2019/08/29/yolo-v3-install-and-run-yolo-on-nvidia-jetson-nano-with-gpu/  
+- Jetson Hacks = Jetson Nano + Raspberry Pi Camera + Jetson Nano – Use More Power!  
+  - https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/  
+  - https://www.jetsonhacks.com/2019/04/10/jetson-nano-use-more-power/
+- JP Redmon  
+  - https://github.com/pjreddie/darknet  
+- AlexeyAB   
+  - https://github.com/AlexeyAB/darknet
 
 
 
 3
-YOLO for ASL
+**YOLO for ASL**  
 
-Intermediate steps:  hardware = $ 201.18
+**Intermediate steps:  hardware = $ 201.18** 
 
 brain = $94.99 = NVIDIA Jetson Nano Developer Kit (945-13450-0000-100)
 	https://www.amazon.com/gp/product/B084DSDDLT/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&psc=1
