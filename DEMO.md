@@ -188,25 +188,25 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 - **A better data set** 
 
-*An Effective and Efficient Method for Detecting Hands in Egocentric Videos for Rehabilitation Applications*   
-  - https://github.com/victordibia/handtracking  
-  - https://arxiv.org/pdf/1908.10406.pdf  
+  - *An Effective and Efficient Method for Detecting Hands in Egocentric Videos for Rehabilitation Applications*   
+    - https://github.com/victordibia/handtracking  
+    - https://arxiv.org/pdf/1908.10406.pdf  
 
 - **Video recognition of arms**   
 
-*Temporal Shift Module for Efficient Video Understanding*
-  - https://github.com/mit-han-lab/temporal-shift-module/tree/master/online_demo
-  - https://arxiv.org/abs/1811.08383  
+  - *Temporal Shift Module for Efficient Video Understanding*
+    - https://github.com/mit-han-lab/temporal-shift-module/tree/master/online_demo
+    - https://arxiv.org/abs/1811.08383  
         
 - **A better tuned model**   
 
-*YOLOv4: Optimal Speed and Accuracy of Object Detection*
-  - https://arxiv.org/pdf/2004.10934.pdf
+  - *YOLOv4: Optimal Speed and Accuracy of Object Detection*
+    - https://arxiv.org/pdf/2004.10934.pdf
 	
 - **A different application**
 
-*Extreme inbreeding likely spells doom for Isle Royale wolves*
-  - https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
+  - *Extreme inbreeding likely spells doom for Isle Royale wolves*
+    - https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
 
 
 10   
