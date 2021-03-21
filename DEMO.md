@@ -108,16 +108,10 @@ memory
 5  
 **YOLO for ASL**
 
-**Custom objects - amending config files = 4 steps**
+**Custom objects - amending config files = 4 steps**    
+
 27 classes and 5400 samples require these 4 darknet framework modifications:  
 - https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
-
-
-
-
-
-
-
 
 
 6  
@@ -137,10 +131,11 @@ memory
 
 **Steps for training custom YOLO**  
 
-use this Colab notebook:    
+*use this Colab notebook:*    
 https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sharing
 
-**step 1: obtain the darknet zip from Steve’s drive**  
+**step 1: obtain the darknet zip from Steve’s drive**    
+
 https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=sharing
 
 **step 2: ensure running CUDA 10**     
@@ -164,11 +159,11 @@ https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=shar
 
 
 8
-YOLO for ASL
+**YOLO for ASL**
 
 Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
-1.	download and unzipping Steve’s darknet.zip:
+1. download and unzipping Steve’s darknet.zip:  
 	https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=sharing
 2: 	assign environment variables; Jetpack 4.2.1 selected for CUDA 10; so, please specify that here:
 	export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
