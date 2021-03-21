@@ -115,6 +115,27 @@ memory
 
 <img width="891" alt="1  Create file yolo-obj cfg with the same content as in yolov4-custom cfg (or copy yolov4-custom cfg to yolo-" src="https://user-images.githubusercontent.com/38410965/111922350-9faf4980-8a6f-11eb-929c-d75846923000.png">
 
+
+
+<img width="885" alt="set network size width-416 heicht-416 or any value multiple of 32" src="https://user-images.githubusercontent.com/38410965/111922399-f3219780-8a6f-11eb-96bb-a9cd38537de3.png">
+
+<img width="878" alt="change line classes=80 to your number of objects in each of 3  yolo  -layers" src="https://user-images.githubusercontent.com/38410965/111922403-f7e64b80-8a6f-11eb-97bf-734caa134b4c.png">
+
+
+<img width="890" alt="change   filters=255 to filters=(classes + 5)x3 in the 3  convolutional  before each  yolo  layer, keep in mind" src="https://user-images.githubusercontent.com/38410965/111922410-fd439600-8a6f-11eb-85af-f52fe02dce60.png">
+
+
+<img width="869" alt="2  Create file obj names in the directory builddarknetx64data with objects names - each in new line" src="https://user-images.githubusercontent.com/38410965/111922411-03397700-8a70-11eb-902f-96faa6f1fe99.png">
+
+
+<img width="926" alt="3  Create file obj data in the directory builddarknetx64data , containing (where classes = number of objects)" src="https://user-images.githubusercontent.com/38410965/111922419-0896c180-8a70-11eb-934b-7f70e652994d.png">
+
+
+<img width="667" alt="4  your objects in the directory builddarknetx64dataobj Put image-files ( jpg) of" src="https://user-images.githubusercontent.com/38410965/111922424-0e8ca280-8a70-11eb-984d-71df929e105d.png">
+
+
+
+
 6  
 **YOLO for ASL**
 
@@ -122,7 +143,7 @@ memory
 - compile labelimg
   - https://github.com/tzutalin/labelImg
 
-5400 images from A to Z + space —> bounding boxes + labels
+5400 images from A to Z + space —> bounding boxes + labels     
 ￼
 <img width="413" alt="labellmg UsersstevedeppDocumentsPersonalMSDS462week 10aslallvalidA1042 jpg" src="https://user-images.githubusercontent.com/38410965/111922328-89a18900-8a6f-11eb-9bce-819a37dc1fcc.png">
 
