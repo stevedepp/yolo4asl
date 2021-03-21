@@ -27,7 +27,7 @@ Steve Depp**
 	remote desktop to Nano or monitor/keyboard/mouse hooked up
 
 
-2
+2   
 **YOLO for ASL**
 
 **References:**
@@ -49,7 +49,7 @@ https://pysource.com/2019/08/29/yolo-v3-install-and-run-yolo-on-nvidia-jetson-na
 
 
 
-3
+3   
 **YOLO for ASL**  
 
 **Intermediate steps:  hardware = $ 201.18** 
@@ -69,36 +69,31 @@ memory = $34.99 = SanDisk Extreme Plus microSDXC UHS-I Card with Adapter, 128GB,
 
 
 
+4   
+**YOLO for ASL**
+
+**OS**
+- Jetson 4.2.1 flash on SD card
+  - https://developer.nvidia.com/jetpack-421-archive
+
+**OS remote install / set up**  
+- Etcher
+  - https://www.balena.io/etcher/
+- brew install screen
+- nmap to check available network locations  
+  - https://nmap.org/download.html
+- VNC connection to Jetson
+- app = RealVNC  
+  - https://www.realvnc.com/en/connect/download/viewer/  
+  - https://medium.com/hacksters-blog/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797
 
 
-4
-YOLO for ASL
+5  
+**YOLO for ASL**
 
-OS
-Jetson 4.2.1 flash on SD card
-https://developer.nvidia.com/jetpack-421-archive
-
-OS remote install / set up
-Etcher
-https://www.balena.io/etcher/
-brew install screen
-nmap to check available network locations
-https://nmap.org/download.html
-VNC connection to Jetson
-app = RealVNC 
-https://www.realvnc.com/en/connect/download/viewer/
-https://medium.com/hacksters-blog/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797
-
-
-
-
-
-5
-YOLO for ASL
-
-Custom objects - amending config files = 4 steps
-27 classes and 5400 samples require these 4 darknet framework modifications:
-https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
+**Custom objects - amending config files = 4 steps**
+27 classes and 5400 samples require these 4 darknet framework modifications:  
+- https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
 
 
 
@@ -108,37 +103,45 @@ https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
 
 
 
-6
-YOLO for ASL
+6  
+**YOLO for ASL**
 
-Custom objects - labels and bounding boxes
-compile labelimg = https://github.com/tzutalin/labelImg
+**Custom objects - labels and bounding boxes**
+- compile labelimg
+  - https://github.com/tzutalin/labelImg
+
 5400 images from A to Z + space —> bounding boxes + labels
 ￼
 
 
 
-7
-YOLO for ASL
+7  
+**YOLO for ASL**
 
-Steps for training custom YOLO 
-in this Colab notebook https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sharing
+**Steps for training custom YOLO**  
 
-step 1: obtain the darknet zip from Steve’s drive
+use this Colab notebook:    
+https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sharing
+
+**step 1: obtain the darknet zip from Steve’s drive**  
 https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=sharing
-step 2: ensure running CUDA 10
-	2a: check CUDA version
-	2b: delete current CUDA version
-	2c: install CUDA v10 (answer Y when asked)
-	2d: confirm CUDA version = 10
-step 3: compile darknet function
-step 4: train YOLO ASL by 2 methods
-	4a. train from scratch with cfg/yolov4.conv.137 
-	4b. repeat steps 1-3 and continue training with cfg/yolo-obj_20000.weights or latests weight set available
-monitor:
-	- download weights from darknet/backup folder every 1000 iterations
-	- observe mAP, IOU, GIUO, avg loss per bounding box per iteration
-	- double click darknet/chart.png and darknet/chart_yolo-obj.png learning plots every 100 iterations
+
+**step 2: ensure running CUDA 10**     
+- 2a: check CUDA version  
+- 2b: delete current CUDA version  
+- 2c: install CUDA v10 (answer Y when asked)  
+- 2d: confirm CUDA version = 10   
+
+**step 3: compile darknet function**
+
+**step 4: train YOLO ASL by 2 methods**   
+- 4a. train from scratch with cfg/yolov4.conv.137   
+- 4b. repeat steps 1-3 and continue training with cfg/yolo-obj_20000.weights or latests weight set available
+
+**monitor:**   
+- download weights from darknet/backup folder every 1000 iterations  
+- observe mAP, IOU, GIUO, avg loss per bounding box per iteration  
+- double click darknet/chart.png and darknet/chart_yolo-obj.png learning plots every 100 iterations
 
 
 
