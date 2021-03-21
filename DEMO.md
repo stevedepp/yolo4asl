@@ -164,36 +164,53 @@ https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=shar
 Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 1. download and unzipping Steve’s darknet.zip:  
-	https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=sharing
-2: 	assign environment variables; Jetpack 4.2.1 selected for CUDA 10; so, please specify that here:
-	export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
-	export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-3.	build: make
-4. 	run it on a video; escape key to exit this:
-	./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights data/ASLAZ.mov -i 0 -thresh   0.25
-	run it live; escape key to exit this:
+
+	https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=sharing  
+2. assign environment variables; Jetpack 4.2.1 selected for CUDA 10; so, please specify that here:   
+   - export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}  
+   - export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}   
+3. build: make   
+4. run it   
+  - run it on a video; escape key to exit this:  
+
+	./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights data/ASLAZ.mov -i 0 -thresh   0.25   
+    
+    - run it live; escape key to exit this:   
+
 ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights "nvarguscamerasrc auto-exposure=1 ! video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=2 ! video/x-raw, width=(int)1280, height=(int)720, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink -e"
 
 
 
 9
-YOLO for ASL
+**YOLO for ASL**
 
-Future / next steps:
-	A better data set  = An Effective and Efficient Method for Detecting Hands in Egocentric Videos for Rehabilitation Applications 
-		https://github.com/victordibia/handtracking
-		https://arxiv.org/pdf/1908.10406.pdf
-	Video recognition of arms = Temporal Shift Module for Efficient Video Understanding
-		https://github.com/mit-han-lab/temporal-shift-module/tree/master/online_demo
-		https://arxiv.org/abs/1811.08383
-	A better tuned model = YOLOv4: Optimal Speed and Accuracy of Object Detection
-		https://arxiv.org/pdf/2004.10934.pdf
-	A different application = Extreme inbreeding likely spells doom for Isle Royale wolves
-		https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
+**Future / next steps:**
+
+- **A better data set** 
+
+*An Effective and Efficient Method for Detecting Hands in Egocentric Videos for Rehabilitation Applications*   
+  - https://github.com/victordibia/handtracking  
+  - https://arxiv.org/pdf/1908.10406.pdf  
+
+- **Video recognition of arms**   
+
+*Temporal Shift Module for Efficient Video Understanding*
+  - https://github.com/mit-han-lab/temporal-shift-module/tree/master/online_demo
+  - https://arxiv.org/abs/1811.08383  
+        
+- **A better tuned model**   
+
+*YOLOv4: Optimal Speed and Accuracy of Object Detection*
+  - https://arxiv.org/pdf/2004.10934.pdf
+	
+- **A different application**
+
+*Extreme inbreeding likely spells doom for Isle Royale wolves*
+  - https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
 
 
 10
-YOLO for wildlife classification 
+**YOLO for wildlife classification**  
 
 a different application: The Wolves of Isle Royale, L. David Mech, U.S. National Park Service, Washington, DC, 1966.
 ￼
