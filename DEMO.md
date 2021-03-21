@@ -158,7 +158,7 @@ https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=shar
 
 
 
-8
+8   
 **YOLO for ASL**
 
 Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
@@ -181,7 +181,7 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 
 
-9
+9   
 **YOLO for ASL**
 
 **Future / next steps:**
@@ -209,15 +209,15 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
   - https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
 
 
-10
+10   
 **YOLO for wildlife classification**  
 
 a different application: The Wolves of Isle Royale, L. David Mech, U.S. National Park Service, Washington, DC, 1966.
 ￼
 
 
-11
-YOLO for better imaging
+11   
+**YOLO for better imaging**
 
 1966 drones												wildlife classification
 ￼
