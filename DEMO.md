@@ -113,6 +113,7 @@ memory
 27 classes and 5400 samples require these 4 darknet framework modifications:  
 - https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
 
+<img width="891" alt="1  Create file yolo-obj cfg with the same content as in yolov4-custom cfg (or copy yolov4-custom cfg to yolo-" src="https://user-images.githubusercontent.com/38410965/111922350-9faf4980-8a6f-11eb-929c-d75846923000.png">
 
 6  
 **YOLO for ASL**
@@ -123,6 +124,9 @@ memory
 
 5400 images from A to Z + space —> bounding boxes + labels
 ￼
+<img width="413" alt="labellmg UsersstevedeppDocumentsPersonalMSDS462week 10aslallvalidA1042 jpg" src="https://user-images.githubusercontent.com/38410965/111922328-89a18900-8a6f-11eb-9bce-819a37dc1fcc.png">
+
+
 
 
 
@@ -227,7 +231,7 @@ a different application:
 11   
 **YOLO for better imaging**
 
-1966 drones												wildlife classification
+the 1966 version of today's drones and wildlife classification  
 ￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
 
 
