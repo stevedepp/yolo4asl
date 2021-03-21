@@ -1,6 +1,6 @@
-## MSDS 462-55 
-## Final Project Demo Video = YOLO for ASL
-Steve Depp
+**MSDS 462-55 
+Final Project Demo Video = YOLO for ASL
+Steve Depp**
 
 
 Final project DV - YOLO for ASL
