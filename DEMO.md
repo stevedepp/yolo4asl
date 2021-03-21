@@ -111,7 +111,9 @@ memory
 **Custom objects - amending config files = 4 steps**    
 
 27 classes and 5400 samples require these 4 darknet framework modifications:  
-- https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
+- https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects     
+
+
 
 <img width="891" alt="1  Create file yolo-obj cfg with the same content as in yolov4-custom cfg (or copy yolov4-custom cfg to yolo-" src="https://user-images.githubusercontent.com/38410965/111922350-9faf4980-8a6f-11eb-929c-d75846923000.png">
 
