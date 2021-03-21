@@ -37,7 +37,8 @@ Steve Depp**
 4.	Visée, R. J., Likitlersuang, J., & Zariffa, J. (2020). An effective and efficient method for detecting hands in egocentric videos for rehabilitation applications. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28(3), 748-755.
 
 **Helpful links:**   
-- Sergio Canu = YOLO V3 – Install and run Yolo on Nvidia Jetson Nano (with GPU)
+- Sergio Canu    
+  - YOLO V3 – Install and run Yolo on Nvidia Jetson Nano (with GPU)
 https://pysource.com/2019/08/29/yolo-v3-install-and-run-yolo-on-nvidia-jetson-nano-with-gpu/  
 - Jetson Hacks = Jetson Nano + Raspberry Pi Camera + Jetson Nano – Use More Power!  
   - https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/  
