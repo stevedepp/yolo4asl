@@ -5,7 +5,7 @@ Steve Depp**
 <img width="401" alt="WOLVES OF ISLE ROYALE" src="https://user-images.githubusercontent.com/38410965/111922483-64614a80-8a70-11eb-932b-679cdf4ad3b6.png">
 
 
-###Final project DV - YOLO for ASL
+### Final project DV - YOLO for ASL
 
 **Motivation:**
 	instant recognition of American Sign Language symbols by an edge device 
