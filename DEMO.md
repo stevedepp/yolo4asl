@@ -64,14 +64,25 @@ power
 - Adafruit 5V 4A (4000mA) switching power supply   
 - https://www.adafruit.com/product/1466
 
-communication = $24.39 = Intel Dual Band Wireless-Ac 8265 w/Bluetooth 8265.NGWMG
-	https://amzn.to/2UcHszJ
-vision = $27 = nVidia Jetson Camera
-	https://store.donkeycar.com/products/nvidia-jetson-camera-for-donkey
-antenna = $4.86 = Molex Antenna Wi-Fi 3.3dBi Gain 2483.5MHz/5850MHz Film
-	https://www.arrow.com/en/products/2042811100/molex
-memory = $34.99 = SanDisk Extreme Plus microSDXC UHS-I Card with Adapter, 128GB, SDSQXBZ-128G-ANCMA
-	https://www.amazon.com/gp/product/B07HMJV355/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+communication  
+- $24.39   
+- Intel Dual Band Wireless-Ac 8265 w/Bluetooth 8265.NGWMG  
+- https://amzn.to/2UcHszJ
+
+vision   
+- $27   
+- nVidia Jetson Camera  
+- https://store.donkeycar.com/products/nvidia-jetson-camera-for-donkey
+
+antenna  
+- $4.86  
+- Molex Antenna Wi-Fi 3.3dBi Gain 2483.5MHz/5850MHz Film   
+- https://www.arrow.com/en/products/2042811100/molex
+
+memory  
+- $34.99   
+- SanDisk Extreme Plus microSDXC UHS-I Card with Adapter, 128GB, SDSQXBZ-128G-ANCMA  
+- https://www.amazon.com/gp/product/B07HMJV355/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
 
 
 
