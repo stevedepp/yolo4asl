@@ -1,11 +1,11 @@
-**MSDS 462-55   
-Final Project Demo Video = YOLO for ASL  
-Steve Depp**
+### MSDS 462-55   
+### Final Project Demo Video = YOLO for ASL    
+**Steve Depp**
 
 <img width="401" alt="WOLVES OF ISLE ROYALE" src="https://user-images.githubusercontent.com/38410965/111922483-64614a80-8a70-11eb-932b-679cdf4ad3b6.png">
 
 
-### Final project DV - YOLO for ASL
+### Final project DV - YOLO for ASL    
 
 **Motivation:**
 	instant recognition of American Sign Language symbols by an edge device 
@@ -30,7 +30,7 @@ Steve Depp**
 
 
 2   
-**YOLO for ASL**
+### YOLO for ASL    
 
 **References:**
 1.	Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv preprint arXiv:2004.10934.
@@ -52,7 +52,7 @@ Steve Depp**
 
 
 3   
-**YOLO for ASL**  
+### YOLO for ASL    
 
 **Intermediate steps:  hardware = $ 201.18** 
 
@@ -89,7 +89,7 @@ memory
 
 
 4   
-**YOLO for ASL**
+### YOLO for ASL    
 
 **OS**
 - Jetson 4.2.1 flash on SD card
@@ -108,7 +108,7 @@ memory
 
 
 5  
-**YOLO for ASL**
+### YOLO for ASL    
 
 **Custom objects - amending config files = 4 steps**    
 
@@ -141,7 +141,7 @@ memory
 
 
 6  
-**YOLO for ASL**
+### YOLO for ASL    
 
 **Custom objects - labels and bounding boxes**
 - compile labelimg
@@ -156,7 +156,7 @@ memory
 
 
 7  
-**YOLO for ASL**
+### YOLO for ASL    
 
 **Steps for training custom YOLO**  
 
@@ -188,7 +188,7 @@ https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=shari
 
 
 8   
-**YOLO for ASL**
+### YOLO for ASL   
 
 Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
@@ -217,7 +217,7 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 
 9   
-**YOLO for ASL**
+### YOLO for ASL   
 
 **Future / next steps:**
 
@@ -245,7 +245,7 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 
 
 10   
-**YOLO for wildlife classification**  
+### YOLO for wildlife classification     
 
 a different application:    
 *The Wolves of Isle Royale, L. David Mech, U.S. National Park Service, Washington, DC, 1966.*
@@ -254,7 +254,7 @@ a different application:
 
 
 11   
-**YOLO for better imaging**
+### YOLO for better imaging   
 
 the 1966 version of today's drones and wildlife classification  
 ￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
