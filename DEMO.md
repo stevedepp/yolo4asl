@@ -136,7 +136,7 @@ https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sh
 
 **step 1: obtain the darknet zip from Steve’s drive**    
 
-https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?	usp=sharing
+https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=sharing
 
 **step 2: ensure running CUDA 10**     
 - 2a: check CUDA version  
@@ -172,7 +172,10 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
    
         export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}   
             
-3. build: make   
+3. build: 
+
+        make   
+        
 4. run it   
   - run it on a video; escape key to exit this:    
   
@@ -215,15 +218,17 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 10   
 **YOLO for wildlife classification**  
 
-a different application: The Wolves of Isle Royale, L. David Mech, U.S. National Park Service, Washington, DC, 1966.
+a different application:    
+*The Wolves of Isle Royale, L. David Mech, U.S. National Park Service, Washington, DC, 1966.*
 ￼
+<img width="406" alt="THE WOLVES" src="https://user-images.githubusercontent.com/38410965/111922251-2e6f9680-8a6f-11eb-91db-47d4b76de8c0.png">
 
 
 11   
 **YOLO for better imaging**
 
 1966 drones												wildlife classification
-￼
+￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
 
 
 
