@@ -1,6 +1,7 @@
 # yolo4asl
 
 YOLO for ASL
+
 A [demo](https://github.com/stevedepp/yolo/blob/main/DEMO.md) of my You Only Look Once model for American Sign Language video classification.   
 (please click on the video below if you'd like to hear sound.)
 
