@@ -1,4 +1,9 @@
+A demo video of my You Only Look Once model for American Sign Language video classification.   
+(please click on the video below if you'd like to hear sound.)
+
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
+
+This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/DEMO.md) describes the genesis and vision for this project.  
 
 ### MSDS 462-55   
 ### Final Project Demo Video = YOLO for ASL    
