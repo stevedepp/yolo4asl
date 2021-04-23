@@ -7,7 +7,7 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
 
 
-**The following transcripts/slides do not show the running shell scripts and Colab notebooks or the demo live YOLO in action that are sown in the video** 
+**The following transcripts/slides do not show the running shell scripts and Colab notebooks or the YOLO in action that are demo'd in the video** 
 
 #
 
