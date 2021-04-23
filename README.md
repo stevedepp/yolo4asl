@@ -208,10 +208,17 @@ https://drive.google.com/file/d/13k7uWAEFmvjKV-0nXGuc4gFv-knwgInv/view?usp=shari
 - observe mAP, IOU, GIUO, avg loss per bounding box per iteration  
 - double click darknet/chart.png and darknet/chart_yolo-obj.png learning plots every 100 iterations
 
+#
 
-
-
-8   
+> The four steps for testing at the edge are:   
+downloading and unzipping,  
+assigning environment variables,  
+building and making the model,  
+and running it.  
+You can either run it on the video as we did earlier.   
+Or, you can run it  
+... live.
+   
 ### YOLO for ASL   
 
 Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
@@ -238,9 +245,14 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
   
         ./darknet detector demo build/darknet/x64/data/obj.data cfg/yolo-obj.cfg yolo-obj_16000.weights "nvarguscamerasrc auto-exposure=1 ! video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=2 ! video/x-raw, width=(int)1280, height=(int)720, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink -e"
 
+#
 
+> While this is getting ready to run,  
+I’ll just mention that there are a few future steps that I would consider:   
+better data set, 
+better tuned model, 
+possibly a different application: ...
 
-9   
 ### YOLO for ASL   
 
 **Future / next steps:**
@@ -267,8 +279,10 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
   - *Extreme inbreeding likely spells doom for Isle Royale wolves*
     - https://www.sciencemag.org/news/2016/04/extreme-inbreeding-likely-spells-doom-isle-royale-wolves
 
+#
 
-10   
+> This is a book, a thesis, by a fellow by the name of David Mech, about wolves. 
+
 ### YOLO for wildlife classification     
 
 a different application:    
@@ -276,12 +290,21 @@ a different application:
 ￼
 <img width="406" alt="THE WOLVES" src="https://user-images.githubusercontent.com/38410965/111922251-2e6f9680-8a6f-11eb-91db-47d4b76de8c0.png">
 
+#
 
-11   
+> Possibly what we could do is replace   
+this low fuel plane   
+and cold wintry days hovering over wolves   
+with drones and a model   
+like the one deployed here.
+
 ### YOLO for better imaging   
 
 the 1966 version of today's drones and wildlife classification  
 ￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
+
+> It’s almost as easy as ABC.   
+Thank you for watching. 
 
 
 
