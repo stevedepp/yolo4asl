@@ -166,17 +166,17 @@ memory
 
 #
 
-> ... so that we could have 4 steps to train in the cloud.
-> This is COLAB actually running on the Nano.
-The first step is obtaining the darknet file so that you can unzip it.
-Next, we need to check that the CUDA version is version 10.
-Then, we delete the old CUDA version which is actually newer, and install version 10.
-When you do that, you need to answer yes, … right here.
-Then, you confirm that the CUDA version is version 10.
-You compile the darknet function.
-Then, you train YOLO by 2 different methods:
-Either you can train from scratch, or you can train using saved weights.
-While you are training, download weights every 1,000 iterations.
+> ... so that we could have 4 steps to train in the cloud.  
+This is COLAB actually running on the Nano.  
+The first step is obtaining the darknet file so that you can unzip it.  
+Next, we need to check that the CUDA version is version 10.  
+Then, we delete the old CUDA version which is actually newer, and install version 10.  
+When you do that, you need to answer yes, … right here.  
+Then, you confirm that the CUDA version is version 10.  
+You compile the darknet function.  
+Then, you train YOLO by 2 different methods:  
+Either you can train from scratch, or you can train using saved weights.  
+While you are training, download weights every 1,000 iterations.  
 You can also observe various error measures and you can click on PNG files to see the learning plots every 1000 iterations, or every 100 iterations.
 
 
