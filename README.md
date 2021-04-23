@@ -50,7 +50,7 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 
 > I had a little help along the way, ...
 
->### YOLO for ASL    
+### YOLO for ASL    
 
 **References:**
 1.	Bochkovskiy, A., Wang, C. Y., & Liao, H. Y. M. (2020). YOLOv4: Optimal Speed and Accuracy of Object Detection. arXiv preprint arXiv:2004.10934.
