@@ -23,6 +23,8 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 
 > The motivation for this project is instant recognition of American Sign Language symbols by an edge device trained in the cloud, leading to a suite of products for visually and hearing impaired.
 
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/38410965/115818723-5e41ef00-a3cb-11eb-8897-ed9ece9fbce7.png">
+
 ### Final project DV - YOLO for ASL    
 
 **Motivation:**      
@@ -182,6 +184,7 @@ Either you can train from scratch, or you can train using saved weights.
 While you are training, download weights every 1,000 iterations.  
 You can also observe various error measures and you can click on PNG files to see the learning plots every 1000 iterations, or every 100 iterations.
 
+<img width="623" alt="image" src="https://user-images.githubusercontent.com/38410965/115818826-98ab8c00-a3cb-11eb-8821-51aaf510654c.png">
 
 ### YOLO for ASL    
 
@@ -221,6 +224,8 @@ and running it.
 You can either run it on the video as we did earlier.   
 Or, you can run it  
 ... live.
+   
+<img width="621" alt="image" src="https://user-images.githubusercontent.com/38410965/115818977-f0e28e00-a3cb-11eb-9402-bb31cf190fb2.png">
    
 ### YOLO for ASL   
 
