@@ -295,16 +295,16 @@ a different application:
 > Possibly one thing we could do is replace   
 this low fuel plane   
 and cold wintry days hovering over wolves   
-with drones and a model   
-like the one deployed here.
+with drones and a model...   
 
 ### YOLO for better imaging   
 
 the 1966 version of today's drones and wildlife classification  
 ￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
 
-> It’s almost as easy as ABC.   
-Thank you for watching. 
+> ... like the one deployed here.
+It’s almost as easy as ABC.   
+Thank you for watching.   
 
-
+<img width="534" alt="image" src="https://user-images.githubusercontent.com/38410965/115818312-84b35a80-a3ca-11eb-8002-110f35ac37f9.png">
 
