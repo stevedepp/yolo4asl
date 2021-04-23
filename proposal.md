@@ -1,4 +1,4 @@
-# YOLO for ASL
+# YOLO for ASL (proposal)
   
 The 1 min 22 sec demo video proposal describes the genesis and vision for this project.  
 
