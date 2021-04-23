@@ -248,9 +248,9 @@ Steps to test/demo custom YOLO for 27 ASL objects on Nvidia Jetson Nano
 #
 
 > While this is getting ready to run,  
-I’ll just mention that there are a few future steps that I would consider:   
-better data set, 
-better tuned model, 
+I’ll just mention that there are a few future steps that I would consider:     
+better data set,   
+better tuned model,   
 possibly a different application: ...
 
 ### YOLO for ASL   
