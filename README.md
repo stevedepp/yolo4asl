@@ -292,7 +292,7 @@ a different application:
 
 #
 
-> Possibly what we could do is replace   
+> Possibly one thing we could do is replace   
 this low fuel plane   
 and cold wintry days hovering over wolves   
 with drones and a model   
