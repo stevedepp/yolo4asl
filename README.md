@@ -6,6 +6,9 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
 
+
+**The following transcripts/slides do not show the running shell scripts and Colab notebooks or the demo live YOLO in action that are sown in the video** 
+
 #
 
 > Morning. Thanks for watching.
@@ -302,7 +305,7 @@ with drones and a model...
 the 1966 version of today's drones and wildlife classification  
 ￼<img width="896" alt="p m , and the latest," src="https://user-images.githubusercontent.com/38410965/111922269-3fb8a300-8a6f-11eb-94e3-bf8a9e809a06.png">
 
-> ... like the one deployed here.
+> ... like the one deployed here.   
 It’s almost as easy as ABC.   
 Thank you for watching.   
 
