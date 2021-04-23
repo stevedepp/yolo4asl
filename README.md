@@ -22,26 +22,26 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 
 ### Final project DV - YOLO for ASL    
 
-**Motivation:**
-	instant recognition of American Sign Language symbols by an edge device 
-	trained in the cloud of course
-	—> a suite of products for visually and hearing impaired 
+**Motivation:**      
+	instant recognition of American Sign Language symbols by an edge device    
+	trained in the cloud of course   
+	—> a suite of products for visually and hearing impaired    
 
-**Ingredients for training in the cloud:**
-	browser for COLAB
-	Google Drive
-	annotated data = 48 hours
-	modified YOLO configuration 
-		200 samples per 27 classes = 5,400 samples
-		1000 iterations per sample = 54,000 iterations
-		= 60 hours iterating over 106 layer model
-	—> 95% mAP and 90% IOU
+**Ingredients for training in the cloud:**   
+	browser for COLAB   
+	Google Drive   
+	annotated data = 48 hours   
+	modified YOLO configuration    
+		200 samples per 27 classes = 5,400 samples   
+		1000 iterations per sample = 54,000 iterations   
+		= 60 hours iterating over 106 layer model   
+	—> 95% mAP and 90% IOU   
 
-**Ingredients for testing at the edge:**
-	Nvidia Jetson Nano et al
-	camera
-	SD card loaded with Jetpack 4.2.1 
-	remote desktop to Nano or monitor/keyboard/mouse hooked up
+**Ingredients for testing at the edge:**   
+	Nvidia Jetson Nano et al   
+	camera   
+	SD card loaded with Jetpack 4.2.1       
+	remote desktop to Nano or monitor/keyboard/mouse hooked up   
 
 #
 
