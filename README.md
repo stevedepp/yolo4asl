@@ -168,7 +168,7 @@ memory
 
 > ... so that we could have 4 steps to train in the cloud.  
 This is COLAB actually running on the Nano.  
-The first step is obtaining the darknet file so that you can unzip it.  
+The first step is obtaining the darknet file and then unzipping it.  
 Next, we need to check that the CUDA version is version 10.  
 Then, we delete the old CUDA version which is actually newer, and install version 10.  
 When you do that, you need to answer yes, … right here.  
