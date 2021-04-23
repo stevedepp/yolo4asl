@@ -1,7 +1,5 @@
-# yolo4asl
-
-YOLO for ASL
- 
+# YOLO for ASL
+  
 The 1 min 22 sec demo video proposal describes the genesis and vision for this project.  
 
 Please click on the video below if you'd like to hear sound or read the transcript that's posted just below the video.
