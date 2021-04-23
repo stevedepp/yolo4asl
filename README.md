@@ -23,9 +23,9 @@ Please click the video to hear sound (which has significant hiss or inherent noi
 ### Final project DV - YOLO for ASL    
 
 **Motivation:**      
-	instant recognition of American Sign Language symbols by an edge device    
-	trained in the cloud of course   
-	—> a suite of products for visually and hearing impaired    
+        instant recognition of American Sign Language symbols by an edge device    
+        trained in the cloud of course   
+        —> a suite of products for visually and hearing impaired    
 
 **Ingredients for training in the cloud:**   
 	browser for COLAB   
