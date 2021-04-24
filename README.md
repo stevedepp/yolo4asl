@@ -2,7 +2,9 @@
 
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
-Please click the video to hear sound (which has significant hiss or inherent noise - apologies) or follow along with the transcript that's set just below the video along with the slides.  This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/proposal.md) describes the genesis and vision for this project.  
+This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/proposal.md) describes the genesis and vision for this project.  
+
+This [brief paper]() accompanies the demovideo. Please click the video to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
 
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
 
