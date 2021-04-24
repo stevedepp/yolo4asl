@@ -192,8 +192,7 @@ You can also observe various error measures and you can click on PNG files to se
 
 **Steps for training custom YOLO**  
 
-*use this Colab notebook:*    
-https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sharing
+*use this [Colab notebook](https://github.com/stevedepp/yolo4asl/blob/main/DEPP_462_55_Final_Project_Yolo_ASL.ipynb) or [this one from my google drive](https://colab.research.google.com/drive/1O5hRmzLjUbuh-kksxZGPefBKohgdaBFv?usp=sharing):*    
 
 **step 1: obtain the darknet zip from Steve’s drive**    
 
