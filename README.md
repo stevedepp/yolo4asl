@@ -171,6 +171,11 @@ memory
 ￼
 <img width="413" alt="labellmg UsersstevedeppDocumentsPersonalMSDS462week 10aslallvalidA1042 jpg" src="https://user-images.githubusercontent.com/38410965/111922328-89a18900-8a6f-11eb-9bce-819a37dc1fcc.png">
 
+(This video shows the process of annotating 5,400 images with bounding boxes and labels using [labelimg](https://github.com/tzutalin/labelImg).)
+
+https://user-images.githubusercontent.com/38410965/116010906-e86a9d00-a5ef-11eb-897f-d3eb1429f769.mp4
+
+
 #
 
 > ... so that we could have 4 steps to train in the cloud.  
