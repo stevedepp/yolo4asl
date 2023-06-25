@@ -1,7 +1,10 @@
 ## YOLO for ASL
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 18be23e (Update README.md)
 <video src="/fp2.mp4"> </video> 
 
 <video width="320" height="240" controls>
@@ -10,6 +13,9 @@
 
 ![Demo](https://github.com/stevedepp/yolo4asl/blob/main/fp2.mp4)
 
+<<<<<<< HEAD
+>>>>>>> parent of 18be23e (Update README.md)
+=======
 >>>>>>> parent of 18be23e (Update README.md)
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
