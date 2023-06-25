@@ -1,10 +1,7 @@
 ## YOLO for ASL
 
-<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;">
 </video>
-
-<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;"> </video>
-
 
 ![Demo](https://github.com/stevedepp/yolo4asl/blob/main/fp2.mp4)
 
