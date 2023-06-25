@@ -1,10 +1,13 @@
 ## YOLO for ASL
 
+<video src='https://github.com/stevedepp/yolo/blob/main/fp2.mp4' />
+
+
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
 This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/proposal.md) describes the genesis and vision for this project.  
-<video src='https://github.com/stevedepp/yolo/blob/main/fp2.mp4' />
-This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%20462%2055%20YOLO%20for%20ASL.pdf) accompanies the demovideo. Please click the video [video](https://github.com/stevedepp/yolo/blob/main/fp2.mp4) next  to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
+
+This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%20462%2055%20YOLO%20for%20ASL.pdf) accompanies the demovideo. Please click the video [video](https://github.com/stevedepp/yolo/blob/main/fp2.mp4) to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
 
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
 
