@@ -1,12 +1,8 @@
 ## YOLO for ASL
 
-<video src="/fp2.mp4"> </video> 
 
-<video width="320" height="240" controls>
-  <source src="fp2.mp4" type="video/mp4">
+<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;">
 </video>
-
-![Demo](https://github.com/stevedepp/yolo4asl/blob/main/fp2.mp4)
 
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
