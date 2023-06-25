@@ -6,7 +6,7 @@ This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/proposal.
 
 This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%20462%2055%20YOLO%20for%20ASL.pdf) accompanies the demovideo. Please click the video to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
 
-<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" autoplay muted style="max-width: 730px;">
 </video>
 
 **The following transcripts/slides do not show the running shell scripts and Colab notebooks or the YOLO in action that are demo'd in the video** 
