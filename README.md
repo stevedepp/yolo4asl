@@ -1,29 +1,19 @@
 ## YOLO for ASL
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 18be23e (Update README.md)
-<video src="/fp2.mp4"> </video> 
-
-<video width="320" height="240" controls>
-  <source src="fp2.mp4" type="video/mp4">
+<video src="https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
+<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;"> </video>
+
 
 ![Demo](https://github.com/stevedepp/yolo4asl/blob/main/fp2.mp4)
 
-<<<<<<< HEAD
->>>>>>> parent of 18be23e (Update README.md)
-=======
->>>>>>> parent of 18be23e (Update README.md)
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
 This [demo video proposal](https://github.com/stevedepp/yolo/blob/main/proposal.md) describes the genesis and vision for this project.  
 
-This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%20462%2055%20YOLO%20for%20ASL.pdf) accompanies the demovideo. Please click the video [video](https://github.com/stevedepp/yolo/blob/main/fp2.mp4) to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
+This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%20462%2055%20YOLO%20for%20ASL.pdf) accompanies the demovideo. Please click the video to hear sound (which has significant inherent noise (hiss) - apologies) or follow along with the transcript that's set just below the video along with the slides.  
 
-<video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;"> </video>
 ![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
 
 **The following transcripts/slides do not show the running shell scripts and Colab notebooks or the YOLO in action that are demo'd in the video** 
