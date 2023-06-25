@@ -9,8 +9,6 @@ This [brief paper](https://github.com/stevedepp/yolo4asl/blob/main/DEPP%20MSDS%2
 <video src="https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-![Demo](https://user-images.githubusercontent.com/38410965/111687833-1f83ac80-8801-11eb-8bff-c255a079959d.mp4)
-
 **The following transcripts/slides do not show the running shell scripts and Colab notebooks or the YOLO in action that are demo'd in the video** 
 
 #
