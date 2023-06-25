@@ -1,6 +1,6 @@
 ## YOLO for ASL
 
-<video src="fp2.mp4" </video> 
+<video src="fp2.mp4"> </video> 
 
 This page presents a demo video of my You Only Look Once model for American Sign Language video classification.   
 
